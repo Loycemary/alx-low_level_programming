@@ -5,10 +5,10 @@
  *
  * Return: always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-      char putsmain[]="\"Programming is like building a multilingual puzzle.\n";
+char putsmain[] = "\"Programming is like building a multilingual puzzle\n";
 
-      puts(putsmain);
+puts(putsmain);
 		return (0);
 }
