@@ -1,42 +1,37 @@
 #include <stdio.h>
+
 /**
- * main - program that prints all possible different combinations
- * of thress digits.
- *
- * Return: 0
+ * main - entry point for the application
+ * Description: Pints all possbile combination of two digits
+ * Return: 0 if execution is successful
  */
+
 int main(void)
 {
-	int i;
-	int n;
-	int j;
+	int d1, d2;
 
-	for (i = 48; i < 58; i++)
+	while (d1 <= 9)
 	{
-		for (n = 48; n < 58; n++)
+		d2 = 0;
+		while (d2 <= 9)
 		{
-			if (n > i)
+			if (d1 != d2 && d1 < d2)
 			{
-				for (j = 48; j < 58; j++)
-				{
-					if (j > n)
-					{
-					putchar(i);
-					putchar(n);
-					putchar(j);
-					if (i == 55 && n == 56 && j == 57)
-					{
-						break;
-					}
+				putchar(d1 + 48);
+				putchar(d2 + 48);
 
+				if (d1 + d2 != 17)
+				{
 					putchar(',');
 					putchar(' ');
-					}
 				}
 			}
+			d2++;
 		}
+		d1++;
 	}
 
 	putchar('\n');
+
 	return (0);
 }
