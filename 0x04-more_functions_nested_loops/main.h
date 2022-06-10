@@ -1,4 +1,3 @@
-int_putchar(char c);
 int_isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
