@@ -8,13 +8,10 @@
  */
 int main(void)
 {
-	char a[] = "This is a string";
-	int i = 0;
+	char *str = "This is a string";
+	int len;
 
-	while (a[i] != '\0')
-	i++;
-
-	printf("length of string: %d\n", i);
+	printf("%d\n", len);
 
 	return (0);
 }
