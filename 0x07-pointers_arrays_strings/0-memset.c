@@ -1,21 +1,20 @@
 #include "main.h"
 #include <stdio.h>
 
-void char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n);
 {
 	char b;
-	unsigned int n;
+	unsigned int i;
 	char *s;
 
-	for (char b = 0; b < n; b++)
+	for (i = 0; i < n; i++)
 
-	printf("%d", char b);
+	printf("%d", i);
 
 }
 
 int main(void)
-{	unsigned int n = 10;
-:	char b;
+{	unsigned int i = 10;
 
 	printf("char *_memset()\n");
 	return (0);
