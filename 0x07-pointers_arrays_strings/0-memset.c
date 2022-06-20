@@ -3,9 +3,7 @@
 
 char *_memset(char *s, char b, unsigned int n);
 {
-	char b;
 	unsigned int i;
-	char *s;
 
 	for (i = 0; i < n; i++)
 
