@@ -11,11 +11,8 @@ char *_memset(char *s, char b, unsigned int n);
 
 	printf("%d", i);
 
-}
-
-int main(void)
-{	unsigned int i = 10;
-
-	printf("char *_memset()\n");
+	{
+	s[i] = b;
+	}
 	return (0);
 }
