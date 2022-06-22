@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-
 
 /**
  * _memset - ironnou
@@ -12,11 +10,11 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	char c;
+	unsigned int i;
 
-	for (c = 0; c < n; c++)
+	for (i = 0; i < n; i++)
 	{
-		s[c] = b;
+		s[i] = b;
 	}
 	return (s);
 }
