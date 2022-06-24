@@ -4,4 +4,3 @@ gcc -c 1-memcpy.c 4-strpbrk.c 2-strchr.c 5-strstr.c 0-memset.c 3-strcmp.c 2-strn
 
 ar -cvq liball.a 1-memcpy.o 4-strpbrk.o 2-strchr.o 5-strstr.o 0-memset.o 3-strcmp.o 2-strncpy.o 1-strncat.o 0-strcat.o 100-atoi.o 9-strcpy.o 3-islower.o 4-isalpha.o 6-abs.o 1-isdigit.o 0-isupper.o 3-puts.o 3-strspn.o 2-strlen.o _putchar.o
 
-randlib liball.a
