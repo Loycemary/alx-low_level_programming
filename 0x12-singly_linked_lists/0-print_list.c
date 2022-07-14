@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**
@@ -7,7 +7,7 @@
  * Return: The total number of nodes in the linked list.
  */
 
-size_t print_list(const list_t *h);
+size_t print_list(const list_t *h)
 {
 	int i;
 
@@ -18,7 +18,7 @@ size_t print_list(const list_t *h);
 		if (h->str == NULL)
 			printf("[%u] %s\n", h->len, "(nil)");
 		else
-			printf("[%u] %s\n", h->len. h->str);
+			printf("[%u] %s\n", h->len, h->str);
 		h = h->next;
 	}
 	printf("[%u] %s\n", h->len, h->str);
