@@ -21,6 +21,7 @@ int _strlen(const char *str)
 /**
  * add_node_end - function that adds a new node at the end of a linked list
  * @head: Pointer to the first node
+ * @str: string to assign the new node
  * Return:  the address of the new element, or NULL if it failed
  *
  */
