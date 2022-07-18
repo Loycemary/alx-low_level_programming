@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * listint_len - A function that returns the number of elements in a linked list
+ * listint_len - A function that returns the number of elements
  * @h: pointer to the first node
  * Return: number of elements in a linked list
  *
