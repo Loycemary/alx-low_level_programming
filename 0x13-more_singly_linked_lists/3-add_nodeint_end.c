@@ -6,6 +6,7 @@
  * add_nodeint_end - function that adds a new node at the end
  * of a linked list
  * @head: pointer to the pointer that points to the first node
+ * @n: n element
  * Return: the address of the new element
  *
  */

@@ -5,6 +5,7 @@
 /**
  * add_nodeint - function that adds a node at the begining
  * @head: pointer to a pointer that points to the first node
+ * @n: n element
  * Return: address of the new element, or NULL if it failed
  *
  */
