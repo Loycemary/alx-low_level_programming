@@ -2,7 +2,7 @@
 
 /**
  * print_dlistint - prints data in nodes
- * @h: head of node 
+ * @h: head of node
  * Return: how many nodes
  */
 size_t print_dlistint(const dlistint_t *h)
